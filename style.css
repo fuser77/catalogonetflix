@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+body {
+    background-color: black;
+}
+header {
+    display: flex; 
+}
+.menu {
+    color: white;
+    display: flex;
+    flex-direction: row;
+
+}
+ ul  {
+    list-style: none;
+    padding-left: 50px;
+    text-align: center;
+    align-items: center;
+}
+li {
+    padding: 15px;
+}
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.buscador  {
+    display: flex;
+    align-items: center;
+}
+.buscador input {
+    width: 350px;
+    text-align: center;
+    padding: 5px;
+    margin-left: 33px;
+}
+.buscador button  {
+    margin: 10px;
+    padding: 5px;
+}
+/* main */
+.peliculas {
+    margin-left: 95px;
+}
+.peliculas img {
+    text-align: center;
+    align-items: center;
+    margin-left: 10px;
+}
+footer {
+    padding-top: 100px;
+}
